@@ -1,0 +1,63 @@
+body {
+  font-family:"Varela Round",Varela,serif;
+  font-size:12px;
+  line-height:1.5;
+  background:#fff;  
+}
+
+ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+label {
+  color:#999;
+  font-weight:bold;
+  margin-left:0;
+}
+
+summary {
+  font-weight:bold;
+  margin:5px 0;
+}
+
+details summary::-webkit-details-marker,
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+.info details summary::-webkit-details-marker,
+.info details summary::-webkit-details-marker {
+  display:inline;
+  color:#999;
+}
+
+details[open] ul {
+  padding-left:10px;
+}
+
+h1 {
+  font-size:24px;
+}
+
+body > ul > li {
+  display:inline;
+  float:left;
+  margin-right:20px;
+}
+
+.info {
+  padding:15px;
+  background:#ddd;
+  background:-webkit-linear-gradient(top, #eee, #ccc);
+  background:-moz-linear-gradient(top, #eee, #ccc);
+  background:-o-linear-gradient(top, #eee, #ccc);
+  border-left:1px solid #fff;
+}
+
+.lennon img, .ozzy img {
+  height:350px;
+}
+
+
