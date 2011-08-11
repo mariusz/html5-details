@@ -22,6 +22,10 @@ summary {
   margin:5px 0;
 }
 
+summary:hover {
+  cursor:pointer;
+}
+
 details summary::-webkit-details-marker,
 details summary::-webkit-details-marker {
   display:none;
